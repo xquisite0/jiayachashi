@@ -79,7 +79,7 @@ export const regularDrinks: Drink[] = [
     chineseName: '蜂蜜柠檬',
     description: 'Refreshing and vitamin-packed citrus beverage',
     category: 'regular',
-    image: '/drinks/honey-lemon.jpg',
+    image: '/honeylemon.png',
   },
   {
     id: 'lime-plum',
@@ -87,7 +87,7 @@ export const regularDrinks: Drink[] = [
     chineseName: '酸柑水',
     description: 'Tangy and thirst-quenching traditional favorite',
     category: 'regular',
-    image: '/drinks/lime-plum.jpg',
+    image: '/lime.png',
   },
   {
     id: 'lemon-tea',
@@ -95,7 +95,7 @@ export const regularDrinks: Drink[] = [
     chineseName: '柠檬茶',
     description: 'Simple and refreshing tea with a citrus twist',
     category: 'regular',
-    image: '/drinks/lemon-tea.jpg',
+    image: '/lemontea.png',
   },
 ];
 
