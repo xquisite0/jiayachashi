@@ -1,0 +1,5 @@
+# Vercel ignore - files not needed for deployment
+node_modules
+.next
+.DS_Store
+*.log
