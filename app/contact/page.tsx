@@ -36,13 +36,10 @@ export default function ContactPage() {
                   <p className="text-kopi-700 leading-relaxed">
                     <strong>Jia Ya Cha Shi</strong><br />
                     佳雅茶室<br />
-                    [Your Hawker Centre Name]<br />
-                    [Stall Number]<br />
-                    [Street Address]<br />
-                    Singapore [Postal Code]
-                  </p>
-                  <p className="text-sm text-kopi-600 mt-3">
-                    * Please update with your actual location details
+                    Hougang Hainanese Village Centre<br />
+                    #02-48<br />
+                    105 Hougang Ave 1<br />
+                    Singapore 530105
                   </p>
                 </div>
               </div>
@@ -58,8 +55,12 @@ export default function ContactPage() {
                   </h2>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center pb-3 border-b border-kopitiam-200">
-                      <span className="font-medium text-kopi-800">Monday - Sunday</span>
-                      <span className="text-kopi-700">7:00 AM - 7:00 PM</span>
+                      <span className="font-medium text-kopi-800">Tuesday - Sunday</span>
+                      <span className="text-kopi-700">6:00 AM - 3:00 PM</span>
+                    </div>
+                    <div className="flex justify-between items-center pb-3 border-b border-kopitiam-200">
+                      <span className="font-medium text-kopi-800">Monday</span>
+                      <span className="text-red-600 font-semibold">Closed</span>
                     </div>
                     <div className="bg-jade-50 border-l-4 border-jade-500 p-4 rounded">
                       <p className="text-sm text-jade-800 font-medium">
@@ -83,20 +84,20 @@ export default function ContactPage() {
                     Good to Know
                   </h2>
                   <ul className="space-y-2 text-kopi-700">
-                    <li className="flex items-start gap-2">
-                      <span className="text-jade-600 mt-1">✓</span>
+                    <li className="flex items-center gap-2">
+                      <span className="text-jade-600">✓</span>
                       <span>Cash and major e-payment methods accepted</span>
                     </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-jade-600 mt-1">✓</span>
+                    <li className="flex items-center gap-2">
+                      <span className="text-jade-600">✓</span>
                       <span>All drinks freshly made to order</span>
                     </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-jade-600 mt-1">✓</span>
+                    <li className="flex items-center gap-2">
+                      <span className="text-jade-600">✓</span>
                       <span>Takeaway available</span>
                     </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-jade-600 mt-1">✓</span>
+                    <li className="flex items-center gap-2">
+                      <span className="text-jade-600">✓</span>
                       <span>Daily specials available while stocks last</span>
                     </li>
                   </ul>
@@ -111,30 +112,27 @@ export default function ContactPage() {
               <h2 className="font-serif text-2xl font-bold text-kopi-800 mb-4">
                 Find Us on the Map
               </h2>
-              <div className="aspect-square w-full bg-kopitiam-100 rounded-lg flex items-center justify-center border-2 border-kopitiam-300">
-                <div className="text-center p-8">
-                  <div className="text-6xl mb-4">🗺️</div>
-                  <p className="text-kopi-700 mb-4">
-                    Map placeholder - Add your Google Maps embed or location map here
-                  </p>
-                  <p className="text-sm text-kopi-600">
-                    To add a map, you can use Google Maps embed code<br />
-                    or integrate with a mapping service
-                  </p>
-                </div>
+              <div className="w-full rounded-lg overflow-hidden border-2 border-kopitiam-300">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7042597008176!2d103.88744161037009!3d1.3540215986274602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da174b60ae36bd%3A0xbdbb14e1489214aa!2zSmlhIFlhIENoYSBTaGkg5L2z6ZuF6Iy25a6k!5e0!3m2!1sen!2ssg!4v1762078572901!5m2!1sen!2ssg"
+                  width="100%"
+                  height="450"
+                  style={{border: 0}}
+                  allowFullScreen={true}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="w-full"
+                />
               </div>
               <div className="mt-6">
                 <a
-                  href="https://www.google.com/maps"
+                  href="https://www.google.com/maps/place/Jia+Ya+Cha+Shi+%E4%BD%B3%E9%9B%85%E8%8C%B6%E5%AE%A4/@1.3540216,103.8874416,17z/data=!3m1!4b1!4m6!3m5!1s0x31da174b60ae36bd:0xbdbb14e1489214aa!8m2!3d1.3540216!4d103.8900165!16s%2Fg%2F11vjt2k0k_"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full bg-jade-600 hover:bg-jade-700 text-white text-center px-6 py-3 rounded-lg font-medium transition-colors"
                 >
                   Open in Google Maps
                 </a>
-                <p className="text-xs text-kopi-600 mt-2 text-center">
-                  * Update this link with your actual Google Maps location
-                </p>
               </div>
             </div>
 
@@ -149,7 +147,7 @@ export default function ContactPage() {
                     <span>🚇</span> By MRT
                   </h3>
                   <p className="text-kopi-700 text-sm pl-7">
-                    [Nearest MRT Station] - [Distance/Walking time]
+                    Kovan - 1.2km, approximately 15 minutes walk
                   </p>
                 </div>
                 <div>
@@ -157,7 +155,7 @@ export default function ContactPage() {
                     <span>🚌</span> By Bus
                   </h3>
                   <p className="text-kopi-700 text-sm pl-7">
-                    Bus services: [Bus numbers]
+                    Bus services: 53, 53M, 62, 62A, 113, 113A, 115
                   </p>
                 </div>
                 <div>
@@ -165,7 +163,7 @@ export default function ContactPage() {
                     <span>🚗</span> By Car
                   </h3>
                   <p className="text-kopi-700 text-sm pl-7">
-                    Limited parking available nearby
+                    Limited parking available at Level 3 & 4 of Hougang Hainanese Village Centre
                   </p>
                 </div>
               </div>

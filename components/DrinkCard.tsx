@@ -21,7 +21,7 @@ export default function DrinkCard({ drink, featured = false }: DrinkCardProps) {
             src={drink.image}
             alt={drink.name}
             fill
-            className="object-cover"
+            className="object-contain"
             onError={(e) => {
               // Fallback if image doesn't exist
               e.currentTarget.style.display = 'none';

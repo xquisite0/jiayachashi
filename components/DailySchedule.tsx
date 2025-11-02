@@ -12,8 +12,8 @@ export default function DailySchedule() {
             key={drink.id}
             className="flex items-start gap-4 pb-4 border-b border-kopitiam-200 last:border-0"
           >
-            <div className="flex-shrink-0 w-24 text-right">
-              <span className="inline-block bg-jade-100 text-jade-800 px-3 py-1 rounded-full text-sm font-medium">
+            <div className="flex-shrink-0 w-32 text-right">
+              <span className="inline-block bg-jade-100 text-jade-800 px-3 py-1 rounded-full text-sm font-medium whitespace-nowrap">
                 {drink.day}
               </span>
             </div>
@@ -24,13 +24,13 @@ export default function DailySchedule() {
           </div>
         ))}
         <div className="flex items-start gap-4 pt-2">
-          <div className="flex-shrink-0 w-24 text-right">
-            <span className="inline-block bg-kopitiam-200 text-kopi-800 px-3 py-1 rounded-full text-sm font-medium">
+          <div className="flex-shrink-0 w-32 text-right">
+            <span className="inline-block bg-kopitiam-200 text-kopi-800 px-3 py-1 rounded-full text-sm font-medium whitespace-nowrap">
               Monday
             </span>
           </div>
           <div className="flex-1">
-            <p className="text-kopi-600 text-sm italic">Regular menu items only</p>
+            <p className="text-kopi-600 text-sm italic">Closed</p>
           </div>
         </div>
       </div>

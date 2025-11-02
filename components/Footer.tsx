@@ -53,7 +53,10 @@ export default function Footer() {
               Opening Hours
             </h3>
             <p className="text-sm">
-              <span className="font-medium">Daily:</span> 7:00 AM - 7:00 PM
+              <span className="font-medium">Tuesday - Sunday:</span> 6:00 AM - 3:00 PM
+            </p>
+            <p className="text-sm mt-1">
+              <span className="font-medium">Monday:</span> <span className="text-red-400">Closed</span>
             </p>
             <p className="text-sm mt-2 text-kopitiam-300">
               Check our daily specials available Tuesday through Sunday!
